@@ -1,0 +1,24 @@
+.u-grid-body {
+  @media (min-width: $tablet) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "sidebar content content content content ";
+
+    main{
+      grid-column: content;
+    }
+  }
+}
+
+.u-grid-main {
+  @media (min-width: $tablet) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "content content aside";
+    gap: 5%;
+
+    .main-content{
+      grid-column: content;
+    }
+  }
+}

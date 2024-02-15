@@ -1,0 +1,18 @@
+.main-content {
+  &__head {
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin: 0 0 clamp(30px, 3vw, 50px) 0;
+  }
+
+  &__title {
+    h1 {
+      font-size: clamp(22px, 3vw, 30px);
+      letter-spacing: 0.8px;
+      color: $color-font;
+    }
+  }
+}

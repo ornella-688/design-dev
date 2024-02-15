@@ -1,0 +1,12 @@
+.main-aside {
+  background: $color-white;
+  border-radius: 15px;
+  width: 100%;
+  min-height: 500px;
+  margin: 50px 0 0 0;
+
+  @media (min-width: $tablet) {
+    min-height: 100vh;
+    margin: 0;
+  }
+}
